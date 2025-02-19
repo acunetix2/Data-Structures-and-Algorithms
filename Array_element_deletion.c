@@ -1,6 +1,5 @@
 //C program to delete an element to an array Data Structure at any specified index.
 #include <stdio.h>
-
 int deletion(int arr[], int current_no_values, int pos)
 {
     if (pos < 0 || pos >= current_no_values)

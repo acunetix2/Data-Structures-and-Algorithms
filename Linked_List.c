@@ -13,7 +13,7 @@ void insert(int value)
     struct Node *ptr = (struct Node *)malloc(sizeof(struct Node));
     if (ptr == NULL)
     {
-        printf("Memory allocation failed\n");
+        printf("Linkedlist is Empty\n");
         return;
     }
     ptr->data = value;

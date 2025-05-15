@@ -20,7 +20,7 @@ void push(int value)
     }
     else
     {
-        front++;
+        rear++;
         stack[front] = value;
     }
 }

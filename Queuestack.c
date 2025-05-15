@@ -21,7 +21,7 @@ void push(int value)
     else
     {
         rear++;
-        stack[front] = value;
+        stack[rear] = value;
     }
 }
 bool isEmpty()
